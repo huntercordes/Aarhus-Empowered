@@ -1,0 +1,150 @@
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .inconsolata-cons { /* imported fonts */
+    font-family: "Inconsolata", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.navbar {
+    font-family: "Work Sans", serif;
+    display: flex;
+    align-items: center;
+    background-color: #f2ad94;
+    backdrop-filter: blur(3px);
+    padding: 0.5rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+  }
+  
+  .brand-logo h1 {
+    width: 400px;
+    height: auto;
+    text-decoration: none;
+    font-family: "Inconsolata", serif;
+    color: #716df2;
+    padding-left: 40px;
+  }
+
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  /* Hamburger Menu */
+  .toggle-button {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    right: 1rem;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  /* Navbar Links */
+  .navbar-links {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    gap: 3rem;
+    color: #716df2;
+  }
+  
+  .navbar-links.active {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #f2ad94;
+    flex-direction: column;
+  }
+  .item:hover {
+    background-color: #2e2a8f;
+  }
+  .navbar-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar-links ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar-links ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1rem;
+  }
+  
+  .navbar-links ul li a:hover {
+    color: var(--navbar-link-hover-color);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .toggle-button {
+      display: flex;
+      display: flex;
+    }
+  
+    .navbar-links {
+      display: none;
+      width: 100%;
+      display: none;
+      width: 100%;
+    }
+  
+    .navbar-links ul {
+      flex-direction: column;
+      width: 100%;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbar-links ul li {
+      text-align: center;
+      width: 100%;
+      margin: 10px 0;
+      text-align: center;
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .navbar-links ul li a {
+      font-size: 1.2rem;
+      padding: 10px;
+      display: block;
+      font-size: 1.2rem;
+      padding: 10px;
+      display: block;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+      display: flex;
+    }
+  }
+  /*end navbar css */

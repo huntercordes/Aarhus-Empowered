@@ -1,0 +1,66 @@
+/* Hero Section */
+body {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f2ad94;
+    color: #2e2a8f;
+}
+.hero {
+    margin-top: 80px;
+    background: #2e2a8f;
+    padding: 2rem;
+    color: #f2ad94;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.card {
+    
+    padding: 1rem;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-1{
+    background:  #2e2a8f;
+}
+.card-2{
+    background:  #716df2;
+}
+.card-3{
+    background:  #CE99F2;
+}
+
+    .card img {
+        width: 100%; /* Makes the image take the full width of the card */
+        height: 200px; 
+        object-fit: cover; 
+        border-radius: 8px; 
+    }
+
+
+.card a {
+    display: inline-block; 
+    background-color: #f2ad94; 
+    color: #5a56c6; 
+    padding: 3px 6px; /* Space inside the button */
+    border-radius: 14px; 
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* slow hover effect */
+    margin: 5px;
+}
+
+/* Hover effect */
+.card a:hover {
+    background-color: #5a56c6;
+}

@@ -1,0 +1,102 @@
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .inconsolata-cons {
+    font-family: "Inconsolata", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+body {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f2ad94;
+    color: #2e2a8f;
+}
+/* Title above the section */
+.title {
+    margin-top: 80px;
+    font-family: "Inconsolata", serif;
+    font-size: 32px;
+    color: #2e2a8f;
+    text-align: left;
+    padding-left: 20px; 
+    margin-bottom: 5px; 
+  }
+  
+  /* Section that contains the content */
+  .image-section {
+    padding: 10px;
+    background-color: #f2ad94; 
+    height: 200px; /* Set a fixed height for the section */
+    display: flex;
+  }
+  
+  /* Content section with image and buttons */
+  .content {
+    display: flex;
+    width: 100%;
+  }
+  
+  
+  .image {
+    width: 50%; /* Image takes up the left half of the section */
+    height: 100%;
+    object-fit: cover; 
+    background-color: #2e2a8f;
+    padding: 20px;
+  }
+  
+ 
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the buttons vertically */
+    align-items: center; /* Center the buttons horizontally */
+    width: 50%; /* Take up the right half */
+ 
+  }
+  
+  /* Styling for buttons */
+  .btn {
+    
+    color: #716df2;
+    font-family: "Inconsolata", serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: bold;
+    transition: background-color 0.3s ease;
+    width: 180px; 
+    height: 30px; 
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    margin: 10px 0; /* Space between buttons */
+  }
+  
+  .btn:hover {
+    background-color: #2e2a8f;
+  }
+  .subsection{
+    padding: 20px;
+    margin-top: 60px;
+    color: #f2ad94;
+    background-color: #2e2a8f;
+    font-family: "Inconsolata", serif;
+    margin-bottom: 40px;
+  }
+
+  .subparagraph{
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  
